@@ -10,7 +10,7 @@
         <img src="/post.png" alt="post" />
         <div class="info-box">
           <div class="time">1 Jan 2023</div>
-          <div class="title">UX review presentations</div>
+          <a class="title" href="./posts/markdown-examples">UX review presentations</a>
           <div class="intro">How do you create compelling presentations that wow your colleagues and impress your managers?How do you create compelling presentations that wow your colleagues and impress your managers?How do you create compelling presentations that wow your colleagues and impress your managers?</div>
         </div>
       </div>
