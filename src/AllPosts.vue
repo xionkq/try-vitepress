@@ -18,7 +18,7 @@
         <img src="/post.png" alt="post" />
         <div class="info-box">
           <div class="time">2 Jan 2023</div>
-          <a class="title" href="./posts/markdown-examples-2">Markdownmore Examples 2</a>
+          <a class="title" href="./posts/markdown-examples-2">Markdown Examples 2</a>
           <div class="intro">How do you create compelling presentations that wow your colleagues and impress your managers?How do you create compelling presentations that wow your colleagues and impress your managers?How do you create compelling presentations that wow your colleagues and impress your managers?</div>
         </div>
       </div>
@@ -97,7 +97,9 @@
           font-weight: 600;
           overflow: hidden;
           text-overflow: ellipsis;
-          white-space: nowrap;
+          display: -webkit-box;
+          -webkit-line-clamp: 1;
+          -webkit-box-orient: vertical;
         }
 
         .intro {

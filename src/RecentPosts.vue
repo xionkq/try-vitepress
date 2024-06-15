@@ -6,11 +6,35 @@
   <div class="recent-posts">
     <div class="heading">Recent blog posts</div>
     <div class="post-box">
-      <div v-for="item in 4" :class="`recent-posts-${item}`">
+      <div class="recent-posts-1">
         <img src="/post.png" alt="post" />
         <div class="info-box">
           <div class="time">1 Jan 2023</div>
-          <a class="title" href="./posts/markdown-examples">UX review presentations</a>
+          <a class="title" href="./posts/markdown-examples">UX review presentationsUX review presentations UX review presentationsUX review presentations</a>
+          <div class="intro">How do you create compelling presentations that wow your colleagues and impress your managers?How do you create compelling presentations that wow your colleagues and impress your managers?How do you create compelling presentations that wow your colleagues and impress your managers?</div>
+        </div>
+      </div>
+      <div class="recent-posts-2">
+        <img src="/post.png" alt="post" />
+        <div class="info-box">
+          <div class="time">1 Jan 2023</div>
+          <a class="title" href="./posts/markdown-examples">UX review presentationsUX review presentations UX review presentationsUX review presentations</a>
+          <div class="intro">How do you create compelling presentations that wow your colleagues and impress your managers?How do you create compelling presentations that wow your colleagues and impress your managers?How do you create compelling presentations that wow your colleagues and impress your managers?</div>
+        </div>
+      </div>
+      <div class="recent-posts-3">
+        <img src="/post.png" alt="post" />
+        <div class="info-box">
+          <div class="time">1 Jan 2023</div>
+          <a class="title" href="./posts/markdown-examples">UX review presentationsUX review presentations UX review presentationsUX review presentations</a>
+          <div class="intro">How do you create compelling presentations that wow your colleagues and impress your managers?How do you create compelling presentations that wow your colleagues and impress your managers?How do you create compelling presentations that wow your colleagues and impress your managers?</div>
+        </div>
+      </div>
+      <div class="recent-posts-4">
+        <img src="/post.png" alt="post" />
+        <div class="info-box">
+          <div class="time">1 Jan 2023</div>
+          <a class="title" href="./posts/markdown-examples">UX review presentationsUX review presentations UX review presentationsUX review presentations</a>
           <div class="intro">How do you create compelling presentations that wow your colleagues and impress your managers?How do you create compelling presentations that wow your colleagues and impress your managers?How do you create compelling presentations that wow your colleagues and impress your managers?</div>
         </div>
       </div>
@@ -102,7 +126,9 @@
       font-weight: 600;
       overflow: hidden;
       text-overflow: ellipsis;
-      white-space: nowrap;
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
     }
 
     .intro {
