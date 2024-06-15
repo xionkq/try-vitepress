@@ -18,7 +18,7 @@ export default createContentLoader('posts/*.md', {
   transform(raw): Post[] {
     return raw
       .map(({ url, frontmatter, excerpt }) => ({
-        title: frontmatter.title,
+        title: frontmatter.title || 'Markdown Post',
         url: "/try-vitepress" + url,
         excerpt,
         date: formatDate(frontmatter.date)

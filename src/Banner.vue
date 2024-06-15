@@ -8,7 +8,7 @@
   </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 .banner {
   width: 100%;
   height: 300px;
@@ -20,11 +20,11 @@
   justify-content: center;
   font-size: 50px;
   font-weight: 600;
-}
 
-.banner img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  .banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 }
 </style>
