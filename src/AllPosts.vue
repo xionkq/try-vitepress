@@ -58,63 +58,59 @@
   </div>
 </template>
 
-<style scoped lang="scss">
+<style scoped>
 .all-posts {
   margin-top: 60px;
+}
 
-  .heading {
-    font-size: 24px;
-    line-height: 32px;
-    margin-bottom: 32px;
-    font-weight: 600;
-  }
+.all-posts .heading {
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 32px;
+  font-weight: 600;
+}
 
-  .post-box {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 48px 32px;
+.all-posts .post-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 48px 32px;
+}
 
-    .post {
-      img {
-        height: 200px;
-        object-fit: cover;
-      }
+.all-posts .post-box .post img {
+  height: 200px;
+  object-fit: cover;
+}
 
-      .info-box {
-        .time {
-          font-size: 14px;
-          line-height: 20px;
-          color: #6941C6;
-          font-weight: 600;
-          margin-top: 16px;
-        }
+.all-posts .post-box .post .info-box .time {
+  font-size: 14px;
+  line-height: 20px;
+  color: #6941C6;
+  font-weight: 600;
+  margin-top: 16px;
+}
 
-        .title {
-          margin-top: 12px;
-          font-size: 24px;
-          line-height: 32px;
-          color: #1A1A1A;
-          font-weight: 600;
-          overflow: hidden;
-          text-overflow: ellipsis;
-          display: -webkit-box;
-          -webkit-line-clamp: 1;
-          -webkit-box-orient: vertical;
-        }
+.all-posts .post-box .post .info-box .title {
+  margin-top: 12px;
+  font-size: 24px;
+  line-height: 32px;
+  color: #1A1A1A;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
 
-        .intro {
-          margin-top: 12px;
-          font-size: 16px;
-          line-height: 24px;
-          color: #667085;
-          overflow: hidden;
-          text-overflow: ellipsis;
-          display: -webkit-box;
-          -webkit-line-clamp: 3;
-          -webkit-box-orient: vertical;
-        }
-      }
-    }
-  }
+.all-posts .post-box .post .info-box .intro {
+  margin-top: 12px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 </style>

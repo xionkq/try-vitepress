@@ -1,7 +1,5 @@
 {
-  "dependencies": {},
   "devDependencies": {
-    "sass": "^1.77.5",
     "vitepress": "^1.2.3",
     "vue": "^3.4.27"
   },

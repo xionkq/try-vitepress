@@ -12,9 +12,3 @@ import Banner from "./Banner.vue";
     <AllPosts />
   </div>
 </template>
-
-<style scoped lang="scss">
-.home {
-
-}
-</style>
